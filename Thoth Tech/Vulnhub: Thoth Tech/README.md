@@ -1,0 +1,1 @@
+For text view and easier view of **CREDENTIALS,** refer to [[CREDENTIALS]]

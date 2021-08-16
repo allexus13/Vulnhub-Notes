@@ -1,0 +1,8 @@
+/.php                 (Status: 403) [Size: 278]
+/.html                (Status: 403) [Size: 278]
+/.htm                 (Status: 403) [Size: 278]
+/.                    (Status: 200) [Size: 10918]
+/wordpress            (Status: 301) [Size: 318] [--> http://192.168.0.103/wordpress/]
+/.htaccess            (Status: 403) [Size: 278]
+/.phtml               (Status: 403) [Size: 278]
+/.htc                 (Status: 403) [Size: 278]
