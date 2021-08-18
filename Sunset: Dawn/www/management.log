@@ -1,0 +1,474 @@
+Config: Printing events (colored=true): processes=true | file-system-events=false ||| Scannning for processes every 100ms and on inotify events ||| Watching directories: [/usr /tmp /etc /home /var /opt] (recursive) | [] (non-recursive)
+Draining file system events due to startup...
+done
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=99     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=922    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=921    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=9      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=855    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=853    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=852    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=850    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=8      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=7    PID=784    | /usr/lib/cups/notifier/dbus dbus://  [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=783    | /usr/sbin/cupsd -l [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=33   PID=770    | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=33   PID=769    | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=33   PID=768    | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=33   PID=767    | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=33   PID=766    | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=7      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=6      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=112  PID=580    | /usr/sbin/mysqld [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=58     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=539    | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=5      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=49     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=48     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=47     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=439    | /sbin/agetty -o -p -- \u --noclear tty1 linux [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=435    | /root/pspy64 [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=430    | /usr/sbin/nmbd --foreground --no-process-group [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=422    | /bin/sh -c /root/pspy64 > /var/www/html/logs/management.log [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=421    | /usr/sbin/cups-browsed [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=107  PID=420    | avahi-daemon: chroot helper [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=416    | /usr/sbin/CRON -f [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=411    | /lib/systemd/systemd-logind [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=410    | /usr/sbin/anacron -d -q -s [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=409    | /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=408    | /usr/sbin/cron -f [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=104  PID=407    | /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=406    | /usr/sbin/rsyslogd -n -iNONE [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=107  PID=405    | avahi-daemon: running [dawn.local] [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=4      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=339    | /sbin/dhclient -4 -v -i -pf /run/dhclient.enp0s3.pid -lf /var/lib/dhcp/dhclient.enp0s3.leases -I -df /var/lib/dhcp/dhclient6.enp0s3.leases enp0s3 [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=333    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=330    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=3      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=29     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=28     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=27     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=101  PID=260    | /lib/systemd/systemd-timesyncd [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=26     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=25     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=24     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=238    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=23     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=22     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=219    | /lib/systemd/systemd-journald [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=21     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=20     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=2      | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=19     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=187    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=186    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=184    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=18     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=17     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=16     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=159    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=154    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=152    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=15     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=14     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=13     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=125    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=123    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=122    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=121    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=12     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=118    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=117    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=115    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=113    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=111    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=110    | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=11     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=10     | [0m
+2021/08/18 05:29:22 [31;1mCMD: UID=0    PID=1      | /sbin/init [0m
+2021/08/18 05:29:28 [31;1mCMD: UID=0    PID=924    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:29:28 [31;1mCMD: UID=0    PID=923    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:29:29 [31;1mCMD: UID=0    PID=925    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:29 [31;1mCMD: UID=0    PID=927    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=930    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=929    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=928    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=931    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=932    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=933    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:30 [31;1mCMD: UID=0    PID=934    | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:29:48 [31;1mCMD: UID=0    PID=937    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:29:48 [31;1mCMD: UID=0    PID=936    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=942    | /usr/sbin/cron -f [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=941    | /usr/sbin/cron -f [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=940    | /usr/sbin/cron -f [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=939    | /usr/sbin/cron -f [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=938    | /usr/sbin/cron -f [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=33   PID=952    | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=951    | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=33   PID=947    | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:30:01 [31;1mCMD: UID=0    PID=946    | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:30:09 [31;1mCMD: UID=0    PID=954    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:30:09 [31;1mCMD: UID=0    PID=953    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:30:29 [31;1mCMD: UID=0    PID=956    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:30:29 [31;1mCMD: UID=0    PID=955    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:30:49 [31;1mCMD: UID=0    PID=958    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:30:49 [31;1mCMD: UID=0    PID=957    | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=959    | /usr/sbin/anacron -d -q -s [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=960    | /bin/sh -c run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=961    | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=962    | /bin/sh /etc/cron.daily/0anacron [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=963    | anacron -u cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=964    | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=965    | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=966    | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=967    | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=968    | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=969    | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=970    | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=971    | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=972    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=973    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=974    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=975    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=976    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=977    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=978    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=979    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=980    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=981    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=982    | /bin/sh /bin/savelog -c 7 dpkg.arch [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=983    | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=984    | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=986    | /bin/sh /bin/savelog -c 7 dpkg.status [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=987    | /bin/sh /bin/savelog -c 7 dpkg.status [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1008   | gzip -f -9 .//dpkg.status.0 [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1009   | /bin/sh /bin/savelog -c 7 dpkg.status [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1010   | /bin/sh /bin/savelog -c 7 dpkg.status [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1011   | /bin/sh /bin/savelog -c 7 dpkg.status [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1012   | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1013   | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1015   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1016   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1018   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1019   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1020   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1021   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1022   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1023   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1024   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1025   | /bin/sh /bin/savelog -c 7 dpkg.diversions [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1026   | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1027   | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1029   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1030   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1031   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:01 [31;1mCMD: UID=0    PID=1032   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1033   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1034   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1035   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1036   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1037   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1038   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1039   | /bin/sh /bin/savelog -c 7 dpkg.statoverride [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1040   | /bin/sh /etc/cron.daily/dpkg [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1041   | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1042   | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1043   | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1044   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1045   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1046   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1047   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1048   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1049   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1050   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1051   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1052   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1053   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1054   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1055   | /bin/sh /etc/cron.daily/passwd [0m
+2021/08/18 05:31:02 [31;1mCMD: UID=0    PID=1056   | run-parts --report /etc/cron.daily [0m
+2021/08/18 05:31:13 [31;1mCMD: UID=0    PID=1057   | [0m
+2021/08/18 05:31:29 [31;1mCMD: UID=0    PID=1059   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:31:29 [31;1mCMD: UID=0    PID=1058   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:31:49 [31;1mCMD: UID=0    PID=1061   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:31:49 [31;1mCMD: UID=0    PID=1060   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1066   | /usr/sbin/cron -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1065   | /usr/sbin/cron -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1064   | /usr/sbin/cron -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1063   | /usr/sbin/cron -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1062   | /usr/sbin/cron -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1069   | /usr/sbin/CRON -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1068   | /usr/sbin/CRON -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1067   | /usr/sbin/CRON -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1071   | /usr/sbin/CRON -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=0    PID=1070   | /usr/sbin/CRON -f [0m
+2021/08/18 05:32:01 [31;1mCMD: UID=33   PID=1076   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:32:09 [31;1mCMD: UID=0    PID=1078   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:32:09 [31;1mCMD: UID=0    PID=1077   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:32:29 [31;1mCMD: UID=0    PID=1080   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:32:29 [31;1mCMD: UID=0    PID=1079   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:32:49 [31;1mCMD: UID=0    PID=1082   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:32:49 [31;1mCMD: UID=0    PID=1081   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1087   | /usr/sbin/cron -f [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1086   | /usr/sbin/cron -f [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1085   | /usr/sbin/cron -f [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1084   | /usr/sbin/cron -f [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1083   | /usr/sbin/cron -f [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1097   | chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:33:01 [31;1mCMD: UID=0    PID=1090   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:33:09 [31;1mCMD: UID=0    PID=1099   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:33:09 [31;1mCMD: UID=0    PID=1098   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:33:29 [31;1mCMD: UID=0    PID=1101   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:33:29 [31;1mCMD: UID=0    PID=1100   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:33:50 [31;1mCMD: UID=0    PID=1103   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:33:50 [31;1mCMD: UID=0    PID=1102   | /lib/systemd/systemd-udevd [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1108   | /usr/sbin/cron -f [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1107   | /usr/sbin/cron -f [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1106   | /usr/sbin/cron -f [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1105   | /usr/sbin/cron -f [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1104   | /usr/sbin/cron -f [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1116   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1115   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=33   PID=1114   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1113   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1111   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1110   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:34:01 [31;1mCMD: UID=0    PID=1118   | chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1124   | /usr/sbin/cron -f [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1123   | /usr/sbin/cron -f [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1122   | /usr/sbin/cron -f [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1121   | /usr/sbin/cron -f [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1120   | /usr/sbin/cron -f [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=1000 PID=1132   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=1000 PID=1129   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1127   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1126   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=33   PID=1125   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=33   PID=1133   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:35:01 [31;1mCMD: UID=0    PID=1134   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:36:02 [31;1mCMD: UID=0    PID=1139   | /usr/sbin/cron -f [0m
+2021/08/18 05:36:02 [31;1mCMD: UID=0    PID=1138   | /usr/sbin/cron -f [0m
+2021/08/18 05:36:02 [31;1mCMD: UID=0    PID=1137   | /usr/sbin/cron -f [0m
+2021/08/18 05:36:02 [31;1mCMD: UID=0    PID=1136   | /usr/sbin/cron -f [0m
+2021/08/18 05:36:02 [31;1mCMD: UID=0    PID=1135   | /usr/sbin/cron -f [0m
+2021/08/18 05:36:26 [31;1mCMD: UID=0    PID=1150   | [0m
+2021/08/18 05:37:01 [31;1mCMD: UID=0    PID=1155   | /usr/sbin/cron -f [0m
+2021/08/18 05:37:01 [31;1mCMD: UID=0    PID=1154   | /usr/sbin/cron -f [0m
+2021/08/18 05:37:01 [31;1mCMD: UID=0    PID=1153   | /usr/sbin/cron -f [0m
+2021/08/18 05:37:01 [31;1mCMD: UID=0    PID=1152   | /usr/sbin/cron -f [0m
+2021/08/18 05:37:01 [31;1mCMD: UID=0    PID=1151   | /usr/sbin/cron -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1170   | /usr/sbin/cron -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1169   | /usr/sbin/cron -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1168   | /usr/sbin/cron -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1167   | /usr/sbin/cron -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1166   | /usr/sbin/cron -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1172   | /usr/sbin/CRON -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1171   | /usr/sbin/CRON -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=1000 PID=1179   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1178   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1177   | /usr/sbin/CRON -f [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=0    PID=1174   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:38:01 [31;1mCMD: UID=1000 PID=1173   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1186   | /usr/sbin/cron -f [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1185   | /usr/sbin/cron -f [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1184   | /usr/sbin/cron -f [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1183   | /usr/sbin/cron -f [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1182   | /usr/sbin/cron -f [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1181   | /usr/sbin/cron -f [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1194   | /sbin/init [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1202   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1201   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1200   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1199   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1204   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1203   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1205   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1207   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1206   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1209   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1208   | /bin/sh /usr/sbin/phpquery -V [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1210   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1211   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1213   | [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1214   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1217   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1222   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1221   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1220   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1223   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1224   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1226   | sed -ne s/^session\.save_handler=\(.*\)$/\1/p [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1227   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1229   | sed -ne s/^session\.save_path=\(.*;\)\?\(.*\)$/\2/p [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1230   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1232   | sed -ne s/^session\.gc_maxlifetime=\(.*\)$/\1/p [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1233   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1236   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1237   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1238   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1239   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1240   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1241   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1242   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:01 [31;1mCMD: UID=0    PID=1243   | /bin/sh -e /usr/lib/php/sessionclean [0m
+2021/08/18 05:39:52 [31;1mCMD: UID=0    PID=1246   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:40:01 [31;1mCMD: UID=0    PID=1251   | /usr/sbin/cron -f [0m
+2021/08/18 05:40:01 [31;1mCMD: UID=0    PID=1250   | /usr/sbin/cron -f [0m
+2021/08/18 05:40:01 [31;1mCMD: UID=0    PID=1249   | /usr/sbin/cron -f [0m
+2021/08/18 05:40:01 [31;1mCMD: UID=0    PID=1248   | /usr/sbin/cron -f [0m
+2021/08/18 05:40:01 [31;1mCMD: UID=0    PID=1247   | /usr/sbin/cron -f [0m
+2021/08/18 05:40:49 [31;1mCMD: UID=0    PID=1262   | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:40:49 [31;1mCMD: UID=0    PID=1263   | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:41:01 [31;1mCMD: UID=0    PID=1268   | /usr/sbin/cron -f [0m
+2021/08/18 05:41:01 [31;1mCMD: UID=0    PID=1267   | /usr/sbin/cron -f [0m
+2021/08/18 05:41:01 [31;1mCMD: UID=0    PID=1266   | /usr/sbin/cron -f [0m
+2021/08/18 05:41:01 [31;1mCMD: UID=0    PID=1265   | /usr/sbin/cron -f [0m
+2021/08/18 05:41:01 [31;1mCMD: UID=0    PID=1264   | /usr/sbin/cron -f [0m
+2021/08/18 05:41:01 [31;1mCMD: UID=0    PID=1269   | /bin/systemd-tmpfiles --clean [0m
+2021/08/18 05:41:36 [31;1mCMD: UID=0    PID=1280   | [0m
+2021/08/18 05:42:01 [31;1mCMD: UID=0    PID=1285   | /usr/sbin/cron -f [0m
+2021/08/18 05:42:01 [31;1mCMD: UID=0    PID=1284   | /usr/sbin/cron -f [0m
+2021/08/18 05:42:01 [31;1mCMD: UID=0    PID=1283   | /usr/sbin/cron -f [0m
+2021/08/18 05:42:01 [31;1mCMD: UID=0    PID=1282   | /usr/sbin/cron -f [0m
+2021/08/18 05:42:01 [31;1mCMD: UID=0    PID=1281   | /usr/sbin/cron -f [0m
+2021/08/18 05:43:01 [31;1mCMD: UID=0    PID=1300   | /usr/sbin/cron -f [0m
+2021/08/18 05:43:01 [31;1mCMD: UID=0    PID=1299   | /usr/sbin/cron -f [0m
+2021/08/18 05:43:01 [31;1mCMD: UID=0    PID=1298   | /usr/sbin/cron -f [0m
+2021/08/18 05:43:01 [31;1mCMD: UID=0    PID=1297   | /usr/sbin/cron -f [0m
+2021/08/18 05:43:01 [31;1mCMD: UID=0    PID=1296   | /usr/sbin/cron -f [0m
+2021/08/18 05:43:36 [31;1mCMD: UID=0    PID=1311   | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:43:58 [31;1mCMD: UID=0    PID=1312   | /usr/sbin/smbd --foreground --no-process-group [0m
+2021/08/18 05:45:01 [31;1mCMD: UID=0    PID=1332   | /usr/sbin/cron -f [0m
+2021/08/18 05:45:01 [31;1mCMD: UID=0    PID=1331   | /usr/sbin/cron -f [0m
+2021/08/18 05:45:01 [31;1mCMD: UID=0    PID=1330   | /usr/sbin/cron -f [0m
+2021/08/18 05:45:01 [31;1mCMD: UID=0    PID=1329   | /usr/sbin/cron -f [0m
+2021/08/18 05:45:01 [31;1mCMD: UID=0    PID=1328   | /usr/sbin/cron -f [0m
+2021/08/18 05:46:01 [31;1mCMD: UID=0    PID=1347   | /usr/sbin/cron -f [0m
+2021/08/18 05:46:01 [31;1mCMD: UID=0    PID=1346   | /usr/sbin/cron -f [0m
+2021/08/18 05:46:01 [31;1mCMD: UID=0    PID=1345   | /usr/sbin/cron -f [0m
+2021/08/18 05:46:01 [31;1mCMD: UID=0    PID=1344   | /usr/sbin/cron -f [0m
+2021/08/18 05:46:01 [31;1mCMD: UID=0    PID=1343   | /usr/sbin/cron -f [0m
+2021/08/18 05:46:36 [31;1mCMD: UID=0    PID=1358   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:46:40 [31;1mCMD: UID=33   PID=1359   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:46:45 [31;1mCMD: UID=33   PID=1360   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:46:47 [31;1mCMD: UID=0    PID=1361   | [0m
+2021/08/18 05:46:50 [31;1mCMD: UID=33   PID=1362   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1367   | /usr/sbin/cron -f [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1366   | /usr/sbin/cron -f [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1365   | /usr/sbin/cron -f [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1364   | /usr/sbin/cron -f [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1363   | /usr/sbin/cron -f [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1377   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=33   PID=1376   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1375   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1374   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1372   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1371   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=33   PID=1370   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:47:01 [31;1mCMD: UID=0    PID=1369   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:47:11 [31;1mCMD: UID=33   PID=1378   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:47:15 [31;1mCMD: UID=33   PID=1379   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1384   | /usr/sbin/cron -f [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1383   | /usr/sbin/cron -f [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1382   | /usr/sbin/cron -f [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1381   | /usr/sbin/cron -f [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1380   | /usr/sbin/cron -f [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1394   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=33   PID=1393   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=1000 PID=1392   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1391   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1390   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=33   PID=1389   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=1000 PID=1388   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1387   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1386   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:48:01 [31;1mCMD: UID=0    PID=1385   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:49:01 [31;1mCMD: UID=0    PID=1399   | /usr/sbin/cron -f [0m
+2021/08/18 05:49:01 [31;1mCMD: UID=0    PID=1398   | /usr/sbin/cron -f [0m
+2021/08/18 05:49:01 [31;1mCMD: UID=0    PID=1397   | /usr/sbin/cron -f [0m
+2021/08/18 05:49:01 [31;1mCMD: UID=0    PID=1396   | /usr/sbin/cron -f [0m
+2021/08/18 05:49:01 [31;1mCMD: UID=0    PID=1395   | /usr/sbin/cron -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1414   | /usr/sbin/cron -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1413   | /usr/sbin/cron -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1412   | /usr/sbin/cron -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1411   | /usr/sbin/cron -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1410   | /usr/sbin/cron -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1419   | /usr/sbin/CRON -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1418   | /usr/sbin/CRON -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1417   | /usr/sbin/CRON -f [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1416   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:50:01 [31;1mCMD: UID=0    PID=1415   | /usr/sbin/CRON -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1429   | /usr/sbin/cron -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1428   | /usr/sbin/cron -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1427   | /usr/sbin/cron -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1426   | /usr/sbin/cron -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1425   | /usr/sbin/cron -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1431   | /usr/sbin/CRON -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1430   | /usr/sbin/CRON -f [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=1000 PID=1439   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1438   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1437   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=33   PID=1436   | /bin/sh -c /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1435   | [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=1000 PID=1434   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1433   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:51:01 [31;1mCMD: UID=0    PID=1432   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:51:59 [31;1mCMD: UID=0    PID=1440   | [0m
+2021/08/18 05:52:01 [31;1mCMD: UID=0    PID=1445   | /usr/sbin/cron -f [0m
+2021/08/18 05:52:01 [31;1mCMD: UID=0    PID=1444   | /usr/sbin/cron -f [0m
+2021/08/18 05:52:01 [31;1mCMD: UID=0    PID=1443   | /usr/sbin/cron -f [0m
+2021/08/18 05:52:01 [31;1mCMD: UID=0    PID=1442   | /usr/sbin/cron -f [0m
+2021/08/18 05:52:01 [31;1mCMD: UID=0    PID=1441   | /usr/sbin/cron -f [0m
+2021/08/18 05:53:01 [31;1mCMD: UID=0    PID=1460   | /usr/sbin/cron -f [0m
+2021/08/18 05:53:01 [31;1mCMD: UID=0    PID=1459   | /usr/sbin/cron -f [0m
+2021/08/18 05:53:01 [31;1mCMD: UID=0    PID=1458   | /usr/sbin/cron -f [0m
+2021/08/18 05:53:01 [31;1mCMD: UID=0    PID=1457   | /usr/sbin/cron -f [0m
+2021/08/18 05:53:01 [31;1mCMD: UID=0    PID=1456   | /usr/sbin/cron -f [0m
+2021/08/18 05:54:01 [31;1mCMD: UID=0    PID=1476   | /usr/sbin/cron -f [0m
+2021/08/18 05:54:01 [31;1mCMD: UID=0    PID=1475   | /usr/sbin/cron -f [0m
+2021/08/18 05:54:01 [31;1mCMD: UID=0    PID=1474   | /usr/sbin/cron -f [0m
+2021/08/18 05:54:01 [31;1mCMD: UID=0    PID=1473   | /usr/sbin/cron -f [0m
+2021/08/18 05:54:01 [31;1mCMD: UID=0    PID=1472   | /usr/sbin/cron -f [0m
+2021/08/18 05:54:02 [31;1mCMD: UID=0    PID=1477   | /usr/sbin/CRON -f [0m
+2021/08/18 05:54:02 [31;1mCMD: UID=0    PID=1481   | /usr/sbin/CRON -f [0m
+2021/08/18 05:54:02 [31;1mCMD: UID=0    PID=1480   | /usr/sbin/CRON -f [0m
+2021/08/18 05:54:02 [31;1mCMD: UID=0    PID=1479   | /usr/sbin/CRON -f [0m
+2021/08/18 05:54:02 [31;1mCMD: UID=0    PID=1478   | /usr/sbin/CRON -f [0m
+2021/08/18 05:54:04 [31;1mCMD: UID=0    PID=1487   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1492   | /usr/sbin/CRON -f [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1491   | /usr/sbin/CRON -f [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1490   | /usr/sbin/CRON -f [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1489   | /usr/sbin/CRON -f [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1488   | /usr/sbin/CRON -f [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1501   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=1000 PID=1500   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1499   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1498   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1497   | /usr/sbin/CRON -f [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=1000 PID=1496   | /bin/sh -c /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1495   | /bin/sh -c /home/ganimedes/phobos [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1494   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/web-control [0m
+2021/08/18 05:55:01 [31;1mCMD: UID=0    PID=1493   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:55:10 [31;1mCMD: UID=0    PID=1503   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:56:01 [31;1mCMD: UID=0    PID=1508   | /usr/sbin/cron -f [0m
+2021/08/18 05:56:01 [31;1mCMD: UID=0    PID=1507   | /usr/sbin/cron -f [0m
+2021/08/18 05:56:01 [31;1mCMD: UID=0    PID=1506   | /usr/sbin/cron -f [0m
+2021/08/18 05:56:01 [31;1mCMD: UID=0    PID=1505   | /usr/sbin/cron -f [0m
+2021/08/18 05:56:01 [31;1mCMD: UID=0    PID=1504   | /usr/sbin/cron -f [0m
+2021/08/18 05:56:49 [31;1mCMD: UID=33   PID=1519   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:56:53 [31;1mCMD: UID=0    PID=1520   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:56:54 [31;1mCMD: UID=0    PID=1522   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:56:54 [31;1mCMD: UID=0    PID=1521   | /usr/sbin/apache2 -k start [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1527   | /usr/sbin/cron -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1526   | /usr/sbin/cron -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1525   | /usr/sbin/cron -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1524   | /usr/sbin/cron -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1523   | /usr/sbin/cron -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1532   | /usr/sbin/CRON -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1531   | /usr/sbin/CRON -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1530   | /usr/sbin/CRON -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1529   | /usr/sbin/CRON -f [0m
+2021/08/18 05:57:01 [31;1mCMD: UID=0    PID=1528   | /bin/sh -c chmod 777 /home/dawn/ITDEPT/product-control [0m
+2021/08/18 05:57:10 [31;1mCMD: UID=0    PID=1538   | [0m
+2021/08/18 05:57:27 [31;1mCMD: UID=0    PID=1539   | /usr/sbin/apache2 -k start [0m

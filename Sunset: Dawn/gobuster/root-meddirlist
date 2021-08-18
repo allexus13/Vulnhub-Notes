@@ -1,0 +1,3 @@
+/index.html           (Status: 200) [Size: 791]
+/logs                 (Status: 301) [Size: 313] [--> http://192.168.0.103/logs/]
+/cctv                 (Status: 301) [Size: 313] [--> http://192.168.0.103/cctv/]
